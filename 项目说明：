@@ -1,0 +1,7 @@
+http://localhost:8989/files/index 进行登陆界面
+
+遇到问题：
+上传文件比较大
+解决：
+application.properties中配置 spring.servlet.multipart.max-file-size=30MB
+                            spring.servlet.multipart.max-request-size=30MB
