@@ -84,3 +84,14 @@ SET FOREIGN_KEY_CHECKS = 1;
 3.运行访问、进入登陆页面
 http://localhost:8989/files/index 进行登陆界面
 ```
+
+
+
+## 错误处理
+
+### 1.访问出现404但是代码没有错误
+
+**解决：**将jar添加到lib文件夹下
+
+![image-20210215202500330](file://C:/Users/%E9%BB%8E%E5%85%88%E6%A1%A6/Desktop/CodeStudyingResource/JAVA/SSM/mybatis-spring-springmvc-oracle-maven%E9%AB%98%E7%BA%A7-%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/%E7%AC%94%E8%AE%B0/SpringMVC/SpringMVC%E5%AD%A6%E4%B9%A0.assets/image-20210215202500330.png?lastModify=1614763048)
+

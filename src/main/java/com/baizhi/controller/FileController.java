@@ -122,12 +122,12 @@ public class FileController {
     @GetMapping("download")
     public void download(String openStyle, String iD, HttpServletResponse response) throws IOException {
         System.out.println("download");
-        //获取打开方式
-        openStyle = openStyle.equals("download") ? "openStyle" : openStyle;
+        //获取打开方式   attachment为附件下载， null为直接打开，
+        openStyle = openStyle.equals("download") ? "attachment" : "";
         //获取数据库中文件信息
         UserFile userFile = userFileService.findById(iD);
         //点击下载链接更新下载次数   （在线打开不算下载次数，附件下载的形式才算）
-        if ("openStyle".equals(openStyle)) {
+        if ("attachment".equals(openStyle)) {
             userFile.setDowncounts(userFile.getDowncounts() + 1);
             userFileService.updateDownCount(userFile);
         }
