@@ -10,13 +10,13 @@
 
 ### 一、用户登陆界面
 
-![image-20210303170842015](D:%5CCode%5CJava%5CJavaProject%5Cfiles%5CREADME.assets%5Cimage-20210303170842015.png)
+![image.png](http://ww1.sinaimg.cn/large/005Z2Diegy1gokaeufi0oj30it08xmxd.jpg)
 
 
 
 ### 二、文件展示与上传下载页面
 
-![image-20210303170859441](D:%5CCode%5CJava%5CJavaProject%5Cfiles%5CREADME.assets%5Cimage-20210303170859441.png)
+![image.png](http://ww1.sinaimg.cn/large/005Z2Diegy1gokapbzdp0j31h90g376q.jpg)
 
 
 
@@ -89,9 +89,17 @@ http://localhost:8989/files/index 进行登陆界面
 
 ## 错误处理
 
-### 1.访问出现404但是代码没有错误
+### 1.Mysql字符集问题
+
+<img src="http://ww1.sinaimg.cn/large/005Z2Diegy1gokatpo809j31gq07ndhp.jpg"/>
+
+**解决：**连接Mysql的url中指定字符集
+
+![image.png](http://ww1.sinaimg.cn/large/005Z2Diegy1gokav7x7s7j30kt01b0so.jpg)
+
+### 2.访问出现404但是代码没有错误
 
 **解决：**将jar添加到lib文件夹下
 
-![image-20210215202500330](file://C:/Users/%E9%BB%8E%E5%85%88%E6%A1%A6/Desktop/CodeStudyingResource/JAVA/SSM/mybatis-spring-springmvc-oracle-maven%E9%AB%98%E7%BA%A7-%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/%E7%AC%94%E8%AE%B0/SpringMVC/SpringMVC%E5%AD%A6%E4%B9%A0.assets/image-20210215202500330.png?lastModify=1614763048)
+![image-20210215202500330.png](http://ww1.sinaimg.cn/large/005Z2Diegy1gokawp0kfwj317v0s777p.jpg)
 

@@ -100,6 +100,10 @@ public class FileController {
         if (!dateDir.exists()) dateDir.mkdirs();  //每天创建一个新的文件夹
 
         //处理文件上传  将上传的文件保存到static目录下
+        //前端要求：
+        //enctype属性的属性值设为multipart/form-data。
+        //input的type属性的属性值设为file。
+        //使用transferTo（dest）方法将上传文件写到服务器上指定的文件
         aaa.transferTo(new File(dateDir, newFileName));
 
         //将文件信息放入数据库保存
